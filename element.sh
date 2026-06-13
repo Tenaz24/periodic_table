@@ -1,5 +1,8 @@
 #!/bin/bash
-echo -e "Please provide an element as an argument." 
+if [[ -z $1 ]]; then
+  echo "Please provide an element as an argument."
+  exit
+fi
 
 Please provide an element as an argument. 
 
