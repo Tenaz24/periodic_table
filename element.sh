@@ -4,7 +4,6 @@ if [[ -z $1 ]]; then
   exit
 fi
 
-Please provide an element as an argument. 
 
 # Query by atomic number, symbol, or name
 if [[ $1 =~ ^[0-9]+$ ]]; then
